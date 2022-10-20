@@ -12,10 +12,10 @@ int main(void)
 
 	while (pr)
 	{
-		_putchar(pr);
+		putchar(pr);
 		pr++;
 	}
-	_putchar('\n');
+	putchar('\n');
 
 	return (0);
 }
