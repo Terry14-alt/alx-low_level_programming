@@ -1,8 +1,6 @@
-#include <stdio.h>
-#include <unistd.h>
-
+#include <main.h>
 /**
- * main - Entry point
+ * main - Prints _putchar
  *
  * Return: Always 0 (Success)
  */
@@ -12,10 +10,10 @@ int main(void)
 
 	while (pr)
 	{
-		putchar(pr);
+		_putchar(pr);
 		pr++;
 	}
-	putchar('\n');
+	_putchar('\n');
 
 	return (0);
 }
